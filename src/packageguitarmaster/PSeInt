@@ -1,0 +1,399 @@
+/*
+Proceso Catalogodenotas
+	Escribir "Bienvenido a Guitar Master";
+	Escribir "";
+	Repetir
+		Escribir "¿Que nota desea?";
+		Escribir "";
+		Escribir "Do";
+		Escribir "Re";
+		Escribir "Mi";
+		Escribir "Fa";
+		Escribir "Sol";
+		Escribir "La";
+		Escribir "Si";
+		leer acorde;
+		Repetir
+			si acorde="do" o acorde="Do" o acorde="re" o acorde="Re" o acorde="mi" o acorde="Mi" o acorde="fa" o acorde="Fa" o acorde="sol" o acorde="Sol" o acorde="la" o acorde="La" o acorde="si" o acorde="Si" Entonces
+				Escribir "Nota valida";
+			sino
+				Escribir "Nota invalida, ingrese una Nota correcta";
+				leer acorde;
+			FinSi
+		Hasta Que acorde="do" o acorde="Do" o acorde="re" o acorde="Re" o acorde="mi" o acorde="Mi" o acorde="fa" o acorde="Fa" o acorde="sol" o acorde="Sol" o acorde="la" o acorde="La" o acorde="si" o acorde="Si"
+		Si acorde="do" o acorde="Do" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";
+				Escribir "====================================";
+				Escribir "|e 0||-----|-----|-----|-----|-----|";
+				Escribir "|B  ||--0--|-----|-----|-----|-----|";
+				Escribir "|G 0||-----|-----|-----|-----|-----|";
+				Escribir "|D  ||-----|--0--|-----|-----|-----|";
+				Escribir "|A  ||-----|-----|--0--|-----|-----|";
+				Escribir "|E X||-----|-----|-----|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "¿Desea ingresar otra nota?";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";					
+					Escribir "====================================";
+					Escribir "|e  ||-----|-----|--0--|-----|-----|";
+					Escribir "|B  ||-----|-----|-----|--0--|-----|";
+					Escribir "|G  ||-----|-----|-----|-----|--0--|";
+					Escribir "|D  ||-----|-----|-----|-----|--0--|";
+					Escribir "|A  ||-----|-----|--0--|-----|-----|";
+					Escribir "|E X||-----|-----|-----|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+		Si acorde="re" o acorde="Re" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";
+				Escribir "====================================";
+				Escribir "|e  ||-----|--0--|-----|-----|-----|";
+				Escribir "|B  ||-----|-----|--0--|-----|-----|";
+				Escribir "|G  ||-----|--0--|-----|-----|-----|";
+				Escribir "|D 0||-----|-----|-----|-----|-----|";
+				Escribir "|A X||-----|-----|-----|-----|-----|";
+				Escribir "|E X||-----|-----|-----|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "Desea ingresar otra nota";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";					
+					Escribir "====================================";
+					Escribir "|e  ||--0--|-----|-----|-----|-----|";
+					Escribir "|B  ||-----|-----|--0--|-----|-----|";
+					Escribir "|G  ||-----|--0--|-----|-----|-----|";
+					Escribir "|D 0||-----|-----|-----|-----|-----|";
+					Escribir "|A X||-----|-----|-----|-----|-----|";
+					Escribir "|E X||-----|-----|-----|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+		Si acorde="mi" o acorde="Mi" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";		
+				Escribir "====================================";
+				Escribir "|e 0||-----|-----|-----|-----|-----|";
+				Escribir "|B 0||-----|-----|-----|-----|-----|";
+				Escribir "|G  ||--0--|-----|-----|-----|-----|";
+				Escribir "|D  ||-----|--0--|-----|-----|-----|";
+				Escribir "|A  ||-----|--0--|-----|-----|-----|";
+				Escribir "|E 0||-----|-----|-----|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "¿Desea ingresar otra nota?";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";
+					Escribir "====================================";
+					Escribir "|e 0||-----|-----|-----|-----|-----|";
+					Escribir "|B 0||-----|-----|-----|-----|-----|";
+					Escribir "|G 0||-----|-----|-----|-----|-----|";
+					Escribir "|D  ||-----|--0--|-----|-----|-----|";
+					Escribir "|A  ||-----|--0--|-----|-----|-----|";
+					Escribir "|E 0||-----|-----|-----|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+		Si acorde="fa" o acorde="Fa" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";				
+				Escribir "====================================";
+				Escribir "|e  ||--0--|-----|-----|-----|-----|";
+				Escribir "|B  ||--0--|-----|-----|-----|-----|";
+				Escribir "|G  ||-----|--0--|-----|-----|-----|";
+				Escribir "|D  ||-----|-----|--0--|-----|-----|";
+				Escribir "|A  ||-----|-----|--0--|-----|-----|";
+				Escribir "|E  ||--0--|-----|-----|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "¿Desea ingresar otra nota?";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";
+					Escribir "====================================";
+					Escribir "|e  ||--0--|-----|-----|-----|-----|";
+					Escribir "|B  ||--0--|-----|-----|-----|-----|";
+					Escribir "|G  ||--0--|-----|-----|-----|-----|";
+					Escribir "|D  ||-----|-----|--0--|-----|-----|";
+					Escribir "|A  ||-----|-----|--0--|-----|-----|";
+					Escribir "|E  ||--0--|-----|-----|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+		Si acorde="sol" o acorde="Sol" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";
+				Escribir "====================================";
+				Escribir "|e  ||-----|-----|--0--|-----|-----|";
+				Escribir "|B  ||-----|-----|--0--|-----|-----|";
+				Escribir "|G 0||-----|-----|-----|-----|-----|";
+				Escribir "|D 0||-----|-----|-----|-----|-----|";
+				Escribir "|A  ||-----|--0--|-----|-----|-----|";
+				Escribir "|E  ||-----|-----|--0--|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "¿Desea ingresar otra nota?";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";
+					Escribir "====================================";
+					Escribir "|e  ||-----|-----|--0--|-----|-----|";
+					Escribir "|B  ||-----|-----|--0--|-----|-----|";
+					Escribir "|G  ||-----|-----|--0--|-----|-----|";
+					Escribir "|D  ||-----|-----|-----|-----|--0--|";
+					Escribir "|A  ||-----|-----|-----|-----|--0--|";
+					Escribir "|E  ||-----|-----|--0--|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+		Si acorde="la" o acorde="La" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";
+				Escribir "====================================";
+				Escribir "|e 0||-----|-----|-----|-----|-----|";
+				Escribir "|B  ||-----|--0--|-----|-----|-----|";
+				Escribir "|G  ||-----|--0--|-----|-----|-----|";
+				Escribir "|D  ||-----|--0--|-----|-----|-----|";
+				Escribir "|A 0||-----|-----|-----|-----|-----|";
+				Escribir "|E X||-----|-----|-----|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "¿Desea ingresar otra nota?";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";
+					Escribir "====================================";
+					Escribir "|e 0||-----|-----|-----|-----|-----|";
+					Escribir "|B  ||--0--|-----|-----|-----|-----|";
+					Escribir "|G  ||-----|--0--|-----|-----|-----|";
+					Escribir "|D  ||-----|--0--|-----|-----|-----|";
+					Escribir "|A 0||-----|-----|-----|-----|-----|";
+					Escribir "|E X||-----|-----|-----|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+		Si acorde="si" o acorde="Si" Entonces
+			Escribir "¿Que modo desea?";
+			Escribir "________";
+			Escribir "Mayor";
+			Escribir "Menor";
+			Escribir "________";
+			Escribir "Elegir";
+			Escribir "";
+			Leer nota;
+			Repetir
+				si nota="mayor" o nota="menor" Entonces
+					Escribir "Modo valido";
+				sino
+					Escribir "Modo invalido, ingrese un Modo correcto";
+					leer nota;
+				FinSi
+			Hasta Que nota="mayor" o nota="menor";
+			Si nota="mayor" Entonces
+				Escribir "";
+				Escribir "Para realizar la nota seleccionada debe presionar: ";
+				Escribir "";
+				Escribir "====================================";
+				Escribir "|e  ||-----|--0--|-----|-----|-----|";
+				Escribir "|B  ||-----|-----|-----|--0--|-----|";
+				Escribir "|G  ||-----|-----|-----|--0--|-----|";
+				Escribir "|D  ||-----|-----|-----|--0--|-----|";
+				Escribir "|A  ||-----|--0--|-----|-----|-----|";
+				Escribir "|E X||-----|-----|-----|-----|-----|";
+				Escribir "====================================";
+				Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+				Escribir "";
+				Escribir "¿Desea ingresar otra nota?";
+				Leer res;
+			Sino
+				Si nota="menor" Entonces
+					Escribir "";
+					Escribir "Para realizar la nota seleccionada debe presionar: ";
+					Escribir "";
+					Escribir "====================================";
+					Escribir "|e  ||-----|--0--|-----|-----|-----|";
+					Escribir "|B  ||-----|-----|--0--|-----|-----|";
+					Escribir "|G  ||-----|-----|-----|--0--|-----|";
+					Escribir "|D  ||-----|-----|-----|--0--|-----|";
+					Escribir "|A  ||-----|--0--|-----|-----|-----|";
+					Escribir "|E X||-----|-----|-----|-----|-----|";
+					Escribir "====================================";
+					Escribir "     |  1  |  2  |  3  |  4  |  5  |";
+					Escribir "";
+					Escribir "¿Desea ingresar otra nota?";
+					Leer res;
+				FinSi
+			FinSi
+		FinSi
+	Hasta Que res="no";
+	Escribir "Gracias por su preferencia";
+	Escribir "Pelaos y el Heber Company";
+FinProceso
+*/
