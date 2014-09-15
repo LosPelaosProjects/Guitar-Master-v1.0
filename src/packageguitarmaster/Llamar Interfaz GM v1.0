@@ -1,0 +1,11 @@
+package proyectocatalogodenotas;
+
+public class ProyectoCatalogoDeNotas {
+    
+    public static void main(String[] args) {
+        
+        Interfaz a=new Interfaz();
+        a.pack();
+        a.setVisible(true);
+    }
+}
